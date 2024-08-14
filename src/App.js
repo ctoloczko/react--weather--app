@@ -7,18 +7,18 @@ function App() {
   return (
     <>
       {" "}
-      <div className="weather-app">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-3">
+      <div className="weather-app border border-dark">
+        <SearchEngine />
+        <div className="container">
+          <div className="row">
+            <div className="col-md-3 current-weather border border-dark">
               <CurrentWeather />
             </div>
-            <div class="col-md-9">
+            <div className="col-md-9">
               <Forecast />
             </div>
           </div>
         </div>
-        <SearchEngine />
       </div>
       <></>
     </>

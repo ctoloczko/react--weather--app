@@ -1,18 +1,26 @@
 import React from "react";
-import "./SearchEngine.css";
 
 export default function SearchEngine() {
   return (
     <>
-      <form class="d-flex">
-        <input
-          className="input-bar"
-          class="me-1"
-          type="search"
-          placeholder="Enter a city"
-        />
-        <input className="search-button" type="submit" value="🔎" />
-      </form>
+      <div className="container header">
+        <div className="row">
+          <div className="col d-flex justify-content-start">
+            {" "}
+            <h1>Stockholm</h1>{" "}
+          </div>
+          <div className="col d-flex justify-content-end">
+            <form className="d-flex">
+              <input
+                className="me-1"
+                type="search"
+                placeholder="Enter a city"
+              />
+              <input className="search-button" type="submit" value="🔎" />
+            </form>
+          </div>
+        </div>
+      </div>
     </>
   );
 }

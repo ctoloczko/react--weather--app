@@ -1,0 +1,52 @@
+h1 {
+  text-transform: uppercase;
+}
+
+h3 {
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+form {
+  margin: 0px 30px 10px;
+}
+
+.current-weather {
+  background-color: #477a9d;
+}
+
+.header {
+  padding-bottom: 15px;
+}
+
+.day1 {
+  background-color: #b8cbc3;
+}
+
+.day2 {
+  background-color: #a2bfba;
+}
+
+.day3 {
+  background-color: #8eb6aa;
+}
+
+.day4 {
+  background-color: #77a99c;
+}
+
+.day5 {
+  background-color: #639b90;
+}
+
+.day6 {
+  background-color: #4a8780;
+}

@@ -2,11 +2,12 @@
   max-width: 800px;
   margin: 50px auto;
   padding-top: 40px;
+  padding-bottom: 12px;
+  padding-left: 12px;
   background: linear-gradient(
     109.6deg,
-    rgb(27, 27, 79) 11.2%,
-    rgb(120, 201, 244) 100.2%
+    rgb(26, 89, 141) 11.2%,
+    rgb(28, 101, 103) 92.5%
   );
-  border: solid black 2px;
   color: #ffffff;
 }
