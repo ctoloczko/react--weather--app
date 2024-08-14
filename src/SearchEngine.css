@@ -1,0 +1,28 @@
+.input-bar {
+  width: 40%;
+  border-radius: 9px;
+}
+
+/*.input-bar {
+  padding: 8px;
+  margin-right: 8px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  cursor: pointer;
+}*/
+
+/*form.d-flex {
+  max-width: 100%;
+}
+
+form.d-flex .form-control 
+{
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+form.d-flex .btn {
+  flex-shrink: 0;
+}*/

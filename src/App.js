@@ -6,16 +6,19 @@ import Forecast from "./Forecast";
 function App() {
   return (
     <>
-      <div class="container">
-        <div class="row">
-          <div class="col-3">
-            <SearchEngine />
-            <CurrentWeather />
-          </div>
-          <div class="col-9">
-            <Forecast />
+      {" "}
+      <div className="weather-app">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <CurrentWeather />
+            </div>
+            <div class="col-md-9">
+              <Forecast />
+            </div>
           </div>
         </div>
+        <SearchEngine />
       </div>
       <></>
     </>
