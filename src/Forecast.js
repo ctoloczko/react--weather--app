@@ -6,7 +6,7 @@ export default function Forecast() {
     <>
       <div className="container">
         <div className="row">
-          <div className="col me-1 border border-dark day1">
+          <div className="col me-1  day1">
             <h3>Thu</h3>
             <h4>15 Aug</h4>
             <h2>🌤️</h2>
@@ -15,7 +15,7 @@ export default function Forecast() {
             <p>💦 35%</p>
             <p>💨 10km/h</p>
           </div>
-          <div className="col me-1  border border-dark day2">
+          <div className="col me-1 day2">
             <h3>Thu</h3>
             <h3>15 Aug</h3>
             <h2>🌤️</h2>
@@ -24,7 +24,7 @@ export default function Forecast() {
             <p>💦 35%</p>
             <p>💨 10km/h</p>
           </div>
-          <div className="col me-1  border border-dark day3">
+          <div className="col me-1 day3">
             <h3>Thu</h3>
             <h3>15 Aug</h3>
             <h2>🌤️</h2>
@@ -33,7 +33,7 @@ export default function Forecast() {
             <p>💦 35%</p>
             <p>💨 10km/h</p>
           </div>
-          <div className="col me-1  border border-dark day4">
+          <div className="col me-1  day4">
             <h3>Thu</h3>
             <h3>15 Aug</h3>
             <h2>🌤️</h2>
@@ -42,7 +42,7 @@ export default function Forecast() {
             <p>💦 35%</p>
             <p>💨 10km/h</p>
           </div>
-          <div className="col me-1 border border-dark day5">
+          <div className="col me-1 day5">
             <h3>Thu</h3>
             <h3>15 Aug</h3>
             <h2>🌤️</h2>
@@ -51,7 +51,7 @@ export default function Forecast() {
             <p>💦 35%</p>
             <p>💨 10km/h</p>
           </div>
-          <div className="col border border-dark day6">
+          <div className="col  day6">
             <h3>Thu</h3>
             <h3>15 Aug</h3>
             <h2>🌤️</h2>

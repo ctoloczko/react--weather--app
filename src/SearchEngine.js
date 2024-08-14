@@ -12,7 +12,7 @@ export default function SearchEngine() {
           <div className="col d-flex justify-content-end">
             <form className="d-flex">
               <input
-                className="me-1"
+                className="me-1 search-input "
                 type="search"
                 placeholder="Enter a city"
               />

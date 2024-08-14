@@ -7,14 +7,14 @@ function App() {
   return (
     <>
       {" "}
-      <div className="weather-app border border-dark">
+      <div className="weather-app ">
         <SearchEngine />
         <div className="container">
           <div className="row">
-            <div className="col-md-3 current-weather border border-dark">
+            <div className="col-md-3 current-weather ">
               <CurrentWeather />
             </div>
-            <div className="col-md-9">
+            <div className="col-md-9 hide-on-small">
               <Forecast />
             </div>
           </div>

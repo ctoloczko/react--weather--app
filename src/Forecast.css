@@ -19,6 +19,24 @@ form {
   margin: 0px 30px 10px;
 }
 
+.search-input {
+  color: #070707;
+}
+.search-button {
+  width: 40px;
+}
+
+input[type="search"]::placeholder {
+  color: #070707;
+  opacity: 0.4;
+}
+
+.search-input,
+.search-button {
+  background-color: #4d808f;
+  border: none;
+}
+
 .current-weather {
   background-color: #477a9d;
 }
@@ -49,4 +67,10 @@ form {
 
 .day6 {
   background-color: #4a8780;
+}
+
+@media only screen and (max-width: 600px) {
+  .hide-on-small {
+    display: none;
+  }
 }
