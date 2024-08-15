@@ -1,13 +1,41 @@
+body {
+  background-color: rgb(140, 188, 231);
+}
 .weather-app {
-  max-width: 800px;
+  max-width: 60%;
   margin: 50px auto;
-  padding-top: 40px;
-  padding-bottom: 12px;
-  padding-left: 12px;
+  padding: 40px 15px 15px;
   background: linear-gradient(
     109.6deg,
     rgb(26, 89, 141) 11.2%,
     rgb(28, 101, 103) 92.5%
   );
-  color: #ffffff;
+  color: rgb(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.forecast-container {
+  padding-right: 0 !important;
+}
+
+footer {
+  font-size: 12px;
+  padding: 15px 0 0 0;
+}
+
+footer a {
+  color: rgb(255, 255, 255, 0.8);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .weather-app {
+    padding: 20px 8px 8px;
+    margin: 20px auto;
+  }
 }
