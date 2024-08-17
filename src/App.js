@@ -2,6 +2,7 @@ import "./App.css";
 import SearchEngine from "./SearchEngine";
 import CurrentWeather from "./CurrentWeather";
 import Forecast from "./Forecast";
+import axios from "axios";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <div className="row">
             <div className="col-lg-3 current-weather rounded ">
               <CurrentWeather />
-            </div>
+            </div>{" "}
             <div className="col-md-9 hide-on-small forecast-container ">
               <Forecast />
             </div>
